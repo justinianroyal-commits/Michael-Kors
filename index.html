@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Michael Kors – Living The Look</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b0b0c;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  z-index: 10;
+  mix-blend-mode: difference;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+  background: radial-gradient(circle at top, #1a1a1a, #0b0b0c);
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 90px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  margin-top: 20px;
+  max-width: 600px;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+/* SECTION GENERAL */
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 10%;
+}
+
+/* CONCEPT */
+.concept {
+  background: #0f0f10;
+  flex-direction: column;
+  text-align: center;
+}
+
+.concept h2 {
+  font-family: 'Playfair Display';
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.concept p {
+  max-width: 800px;
+  opacity: 0.8;
+  line-height: 1.8;
+}
+
+.quote {
+  margin-top: 40px;
+  font-size: 22px;
+  font-style: italic;
+  color: #c9a86a;
+}
+
+/* WORLDS */
+.world {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.world::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+}
+
+.world .text {
+  position: relative;
+  z-index: 2;
+}
+
+.world h2 {
+  font-family: 'Playfair Display';
+  font-size: 60px;
+}
+
+.world p {
+  margin-top: 10px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+
+/* BACKGROUND IMAGES (înlocuiești cu pozele tale) */
+.city { background-image: url('images/city.jpg'); }
+.retreat { background-image: url('images/retreat.jpg'); }
+.evening { background-image: url('images/evening.jpg'); }
+.resort { background-image: url('images/resort.jpg'); }
+
+/* EXPERIENCE */
+.experience {
+  background: #0f0f10;
+  flex-direction: column;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 40px;
+  margin-bottom: 60px;
+  font-family: 'Playfair Display';
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1000px;
+}
+
+.grid div {
+  padding: 20px;
+  border-left: 1px solid #333;
+}
+
+.grid h3 {
+  color: #c9a86a;
+  margin-bottom: 10px;
+}
+
+/* JOURNAL */
+.journal {
+  background: #0b0b0c;
+  flex-direction: column;
+  text-align: center;
+}
+
+.journal h2 {
+  font-size: 45px;
+  font-family: 'Playfair Display';
+}
+
+.journal p {
+  max-width: 700px;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+/* RETAIL FEATURES */
+.features {
+  background: #111;
+  flex-direction: column;
+}
+
+.features h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display';
+}
+
+.features ul {
+  list-style: none;
+  line-height: 2;
+  opacity: 0.8;
+}
+
+/* FOOTER */
+footer {
+  padding: 60px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.5;
+  background: #000;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div>MICHAEL KORS</div>
+  <div>LIVING THE LOOK</div>
+</nav>
+
+<header class="hero">
+  <h1>Living The Look</h1>
+  <p>
+    A future-facing experiential retail concept where Michael Kors transforms shopping into immersive lifestyle worlds.
+  </p>
+</header>
+
+<section class="concept">
+  <div>
+    <h2>Concept Statement</h2>
+    <p class="quote">
+      “Rather than selling products, Michael Kors will sell a lifestyle.”
+    </p>
+    <p>
+      The store becomes a narrative journey where each space represents an aspirational identity of the customer.
+      Retail transforms into experience, emotion and storytelling.
+    </p>
+  </div>
+</section>
+
+<section class="world city">
+  <div class="text">
+    <h2>The City Club</h2>
+    <p>Power. Confidence. Success.</p>
+  </div>
+</section>
+
+<section class="world retreat">
+  <div class="text">
+    <h2>The Weekend Retreat</h2>
+    <p>Slow Luxury. Effortless Style.</p>
+  </div>
+</section>
+
+<section class="world evening">
+  <div class="text">
+    <h2>The Evening Edit</h2>
+    <p>Own The Moment.</p>
+  </div>
+</section>
+
+<section class="world resort">
+  <div class="text">
+    <h2>The Resort Collection</h2>
+    <p>Escape Beautifully.</p>
+  </div>
+</section>
+
+<section class="experience">
+  <h2>Multi-Sensory Experience</h2>
+
+  <div class="grid">
+    <div>
+      <h3>Signature Scent</h3>
+      <p>Bergamot, White Jasmine, Sandalwood</p>
+    </div>
+
+    <div>
+      <h3>Sound Design</h3>
+      <p>Curated soundscapes per zone</p>
+    </div>
+
+    <div>
+      <h3>Dynamic Lighting</h3>
+      <p>Day-to-night transitions across store worlds</p>
+    </div>
+  </div>
+</section>
+
+<section class="journal">
+  <h2>The Style Journal</h2>
+  <p>
+    A digital identity system where customers save looks, build outfits and receive a personalized Style Journal connecting physical and digital retail.
+  </p>
+</section>
+
+<section class="features">
+  <h2>Retail Experience Strategy</h2>
+  <ul>
+    <li>Window Displays – narrative installations per world</li>
+    <li>Smart Fitting Rooms – interactive styling mirrors</li>
+    <li>VIP Lounge – premium hospitality environment</li>
+    <li>Digital Discovery Walls – QR-based inspiration system</li>
+  </ul>
+</section>
+
+<footer>
+  Michael Kors Living The Look 2027 – Experiential Retail & Spatial Branding Concept
+</footer>
+
+</body>
+</html>
